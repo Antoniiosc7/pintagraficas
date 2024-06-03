@@ -1,0 +1,28 @@
+.github-link {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.github-link a {
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 2em;
+}
+
+.github-link a:hover {
+  color: #0366d6;
+}
+
+h3{
+  margin-top: 2em;
+}
+textarea{
+
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px solid #000;
+  height: 1000px!important;
+}
