@@ -1,0 +1,33 @@
+{
+  "name": "metrics_values",
+  "columns": [
+    "time",
+    "agreement",
+    "guaranteeResult",
+    "guaranteeValue",
+    "id",
+    "metric_COUNT_DONEISSUES_MEMBER",
+    "metric_COUNT_DONEISSUES_MERGEDPR",
+    "metric_COUNT_INPROGRESSISSUES_MEMBER",
+    "metric_COUNT_INPROGRESSISSUES_NEWBRANCH",
+    "metric_COUNT_INREVIEWISSUES_OPENPR",
+    "metric_COUNT_MERGED_PR_WITH_POSITIVE_REVIEWS_MEMBER",
+    "metric_COUNT_MERGED_PR_WITH_POSITIVE_REVIEWS_TEAM",
+    "metric_COUNT_PR",
+    "metric_COUNT_PRS_WITH_AT_LEAST_ONE_COMMENT_OR_ONE_REVIEW_COMMENT_BY_MEMBER",
+    "metric_COUNT_PR_MERGED_MEMBER",
+    "metric_COUNT_PR_MERGED_TEAM",
+    "metric_NUMBER_GH_MERGEDPR",
+    "metric_NUMBER_GH_NEWBRANCH",
+    "metric_NUMBER_GH_OPENPR",
+    "scope_class",
+    "scope_member",
+    "scope_project"
+  ],
+  "values": [
+    ["2024-03-10T00:00:00Z", "tpa-TFG-GH-antoniiosc7_tpPrueba", false, 0, "CORRELATION_DONEISSUES_MERGEDPR", 10, 0, null, null, null, null, null, null, null, null, null, 1, null, null, "TFG", null, "TFG-GH-antoniiosc7_tpPrueba"],
+    ["2024-03-10T00:00:00Z", "tpa-TFG-GH-antoniiosc7_tpPrueba", false, 0, "NUMBER_COUNTPRSWITHATLEASTONECOMMENTORONEREVIEWCOMMENTBYMEMBER", 20, null, null, null, null, null, null, null, 0, null, null, null, null, null, null, "TFG", "Antonio", "TFG-GH-antoniiosc7_tpPrueba"],
+    ["2024-03-10T00:00:00Z", "tpa-TFG-GH-antoniiosc7_tpPrueba", false, 0, "NUMBER_APPROVEDMERGEDPULLREQUEST_MEMBER", 30, null, null, null, null, 0, null, null, null, null, null, null, null, null, null, null, "TFG", "Antonio", "TFG-GH-antoniiosc7_tpPrueba"],
+    ["2024-03-14T16:00:00Z", "tpa-TFG-GH-antoniiosc7_tpPrueba", false, 0, "CORRELATION_INPROGRESSISSUES_NEWBRANCH", 40, null, null, 0, null, null, null, null, null, null, null, null, null, 0, null, "TFG", null, "TFG-GH-antoniiosc7_tpPrueba"]
+  ]
+}
