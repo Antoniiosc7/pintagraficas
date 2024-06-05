@@ -1,27 +1,45 @@
 # PintaGraficas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.11.
+Este proyecto es un ejemplo de cómo visualizar gráficas a partir de los datos de un TPA (Team Practice Management). Los datos de ejemplo se encuentran en un archivo JSON y se utilizan las bibliotecas Highcharts y Chart.js para la visualización de las gráficas.
 
-## Development server
+## Highcharts y Chart.js
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Highcharts es una biblioteca de gráficos escrita en JavaScript pura, que ofrece una forma fácil de agregar gráficos interactivos a tus sitios web o aplicaciones web.
 
-## Code scaffolding
+Chart.js es una biblioteca de gráficos de código abierto que proporciona gráficos flexibles y personalizables para diseñadores y desarrolladores. Puedes usarlo para crear gráficos de líneas, barras, radiales, de burbujas y otros en tus aplicaciones web.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Requisitos
 
-## Build
+- Node.js v16.10.0
+- Angular CLI v13.3.11
+- Docker (opcional)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Instalación
 
-## Running unit tests
+Para instalar las dependencias del proyecto, ejecuta el siguiente comando en la raíz del proyecto:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+npm install
+```
 
-## Running end-to-end tests
+## Ejecución en modo desarrollo
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Para iniciar el servidor de desarrollo, ejecuta el siguiente comando:
 
-## Further help
+```bash
+npm run start
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+El servidor se iniciará en `http://localhost:4500/`.
+
+## Ejecución con Docker
+
+Si prefieres usar Docker, puedes construir y ejecutar el proyecto con los siguientes comandos:
+
+```bash
+sudo docker build -t front .
+sudo docker run -d -p 8082:8082 -p 443:443 front
+```
+
+Esto construirá una imagen Docker del proyecto y la ejecutará en un contenedor. La aplicación estará disponible en `http://localhost:8082/`.
+
